@@ -1,0 +1,38 @@
+/* Elements */
+hr {
+    width: 100%;
+}
+
+img {
+    width: 14rem;
+    height: 14rem;
+    object-fit: contain;
+}
+
+/* Page */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .75rem 1rem;
+}
